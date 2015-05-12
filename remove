@@ -1,0 +1,16 @@
+
+  "sources": [{
+    "name": "CBOE VIX Page",
+    "web": "http://www.cboe.com/micro/vix/historical.aspx"
+  }],
+  "views": [
+    {
+      "id": "Graph",
+      "type": "Graph",
+      "state": {
+        "graphType": "lines",
+        "group": "Date",
+        "series": [ "VIXClose" ]
+      }
+    }
+  ]
